@@ -6,7 +6,8 @@ df = pd.read_csv('cart.csv', parse_dates=['date'])
 df
 
 # %%
-df['amount'].astype('Int32')
+# df['amount'].astype('Int32')
+df.shape
 
 # %%
 df.isnull()
